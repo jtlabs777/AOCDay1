@@ -5,8 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import static java.lang.Integer.parseInt;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
 
@@ -57,10 +56,8 @@ public class Main {
       }
 
       private static boolean isANumber(int charCode) {
-          if ( charCode >= 48 && charCode <= 57) { //check if 0 - 9
-              return true;
-          }
-          return false;
+          //check if 0 - 9
+          return charCode >= 48 && charCode <= 57;
       }
 
 
